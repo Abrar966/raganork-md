@@ -22,7 +22,7 @@ const settingsMenu = [
   ]
 DATABASE_URL = process.env.DATABASE_URL === undefined ? './bot.db' : process.env.DATABASE_URL;
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
-if (!(process.env.SESSION || process.env.SESSION_ID)) throw new Error("Raganork~45675fc52a196209f17e1eb97445c6fa:674c5a4c64374c485a55633d")
+if (!(process.env.SESSION || process.env.Raganork~45675fc52a196209f17e1eb97445c6fa:674c5a4c64374c485a55633d)) throw new Error("Raganork~45675fc52a196209f17e1eb97445c6fa:674c5a4c64374c485a55633d")
 module.exports = {
     VERSION: 'v4.0.0',
     ALIVE: process.env.ALIVE || "https://i.imgur.com/KCnoMM2.jpg Hey {sender}, I'm alive \n Uptime: {uptime}",
